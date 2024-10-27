@@ -2,3 +2,6 @@
 # with the help of string slicing.
 
 palindrome = "too bad i hid a boot"
+
+reversed = palindrome[-1::-1]
+print(reversed)
