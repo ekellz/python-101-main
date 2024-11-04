@@ -35,7 +35,10 @@ flag = True
 if flag == True:
     print("left")
 
-if flag == False:
+if flag == True:
+    print("straight ahead")
+
+if flag == True:
     print("straight ahead")
 
 if flag == True:

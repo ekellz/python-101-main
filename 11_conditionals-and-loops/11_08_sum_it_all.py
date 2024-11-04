@@ -6,3 +6,8 @@
 
 start = 1
 stop = 100
+total = 0
+
+for num in range(1, 101):
+    total += num
+print(f"The sum of numbers is {total}")

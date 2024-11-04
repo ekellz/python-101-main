@@ -7,7 +7,9 @@
 
 hunger = 2
 
-if hunger == "big":
+if hunger != str:
+    print("Please check your response!")
+elif hunger == "big":
     print("Eat the pizza")
 elif hunger == "small":
     print("Eat the apple")
