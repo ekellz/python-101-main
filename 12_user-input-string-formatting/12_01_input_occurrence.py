@@ -4,3 +4,13 @@
 # String input: hello world
 # Letter input: o
 # Result: 4
+
+string = input("Please enter some word. ")
+letter = input("Please pick a random letter from your prior word. ")
+
+index = string.find(letter)
+
+if index != -1:
+    print(f"It's at {index}")
+else: 
+    print("put yo stuff in right")
