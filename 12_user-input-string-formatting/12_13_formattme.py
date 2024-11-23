@@ -4,10 +4,11 @@
 # so that the output doesn't show any superfluous spacing.
 
 animal = "cat"
-blurb = f"The {animal} (Felis {animal}us) is a domestic species of small \
-        carnivorous mammal. It is the only domesti{animal}ed species \
-        in the family Felidae and is often referred to as the \
-        domestic {animal} to distinguish it from the wild members of the family."
-blurb = blurb.replace("/", "").strip()
-blurb = blurb.replace("         ", " ")
+blurb = (
+        f"The {animal} (Felis {animal}us) is a domestic species of small " 
+        "carnivorous mammal. It is the only domesti{animal}ed species "
+        "in the family Felidae and is often referred to as the "
+        f"domestic {animal} to distinguish it from the wild members of the family."
+)
+
 print(blurb)

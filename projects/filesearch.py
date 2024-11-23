@@ -14,3 +14,10 @@
 # Start with a small folder to make it easy to check whether your program is
 # working correctly. Then search a bigger folder.
 # This program should work for any specified folder on your computer.
+
+import pathlib
+
+# Find path to folder
+
+
+# List .jpgs by name
