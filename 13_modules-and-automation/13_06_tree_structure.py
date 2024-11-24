@@ -4,3 +4,13 @@
 
 import pathlib
 
+path = pathlib.Path("/Users/ericajansen/Documents/Coding Projects/single-scripts")
+
+for filepath in path.rglob("*.py"):
+    print(filepath.name)
+
+
+
+
+
+

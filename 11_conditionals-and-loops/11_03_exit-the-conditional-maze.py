@@ -31,9 +31,16 @@
 # without changing the direction that you're looking.
 
 flag = True
+flag = False
+
+if flag == False:
+    print("left")
 
 if flag == True:
     print("left")
+  
+if flag == False:
+    print("straight ahead")
 
 if flag == True:
     print("straight ahead")
@@ -53,6 +60,9 @@ if flag == True:
 if flag == True:
     print("straight ahead")
 
+if flag == False:
+    print("right")
+    
 if flag == True:
     print("DEAD END")
 
