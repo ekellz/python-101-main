@@ -17,7 +17,10 @@
 
 import pathlib
 
-# Find path to folder
+path = pathlib.Path("/Users/ericajansen/Documents")
+
+for filepath in path.rglob("*.jpg"):
+    print(filepath)
 
 
-# List .jpgs by name
+# Not sure what nesting I would need as output looks correct
