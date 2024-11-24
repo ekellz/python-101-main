@@ -7,3 +7,8 @@
 # 30 31 32 33 34 35 36 37 38 39
 # 40 41 42 43 44 45 46 47 48 49
 
+for i in range(0, 50, 10):
+    row = " ".join(str(num).rjust(2) for num in range(i, i+10))
+    print(row)
+
+## Never would have gotten this and so looked it up. Makes sense though.
